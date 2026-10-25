@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Awesome Offline Productivity</title><desc id="desc">A laptop and local document beside the project name.</desc>
+<rect width="1200" height="360" rx="28" fill="#f6f4ff"/>
+<g transform="translate(68 77)" fill="none" stroke="#6b47c9" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<rect x="0" y="0" width="236" height="157" rx="14" fill="#fff"/><path d="M-17 176H253L240 194H-4Z" fill="#dfd5fa"/>
+<path d="M59 48h119M59 77h88M59 106h103" stroke="#a28ad9"/>
+<circle cx="218" cy="152" r="34" fill="#6b47c9" stroke="#f6f4ff" stroke-width="7"/><path d="m203 151 10 11 20-24" stroke="#fff" stroke-width="7"/>
+</g>
+<text x="370" y="115" fill="#6b47c9" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="5">AWESOME</text>
+<text x="365" y="190" fill="#21212e" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700">Offline Productivity</text>
+<text x="370" y="244" fill="#5d586c" font-family="Arial,Helvetica,sans-serif" font-size="27">Everyday work. On your device.</text>
+</svg>
