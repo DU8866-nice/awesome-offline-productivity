@@ -1,0 +1,432 @@
+{
+  "reviewed_on": "2026-10-25",
+  "categories": [
+    "Notes and Knowledge",
+    "Documents and PDFs",
+    "Images and Diagrams",
+    "Audio and Video",
+    "Local AI and Transcription",
+    "Search and Automation",
+    "Files and Backups",
+    "Reading and References"
+  ],
+  "items": [
+    {
+      "name": "Joplin",
+      "category": "Notes and Knowledge",
+      "repository": "laurent22/joplin",
+      "url": "https://joplinapp.org/",
+      "description": "Local notebooks and to-do lists with offline search and optional synchronization.",
+      "description_zh": "本地笔记本和待办清单，支持离线搜索，同步功能可选。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Optional sync",
+      "condition_zh": "普通本地笔记不需要云同步。",
+      "sources": [
+        "https://github.com/laurent22/joplin/blob/dev/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Obsidian",
+      "category": "Notes and Knowledge",
+      "repository": "obsidianmd/obsidian-releases",
+      "url": "https://obsidian.md/",
+      "description": "Markdown notes stored in local folders, with backlinks and optional sync; proprietary software.",
+      "description_zh": "以本地 Markdown 文件保存笔记，支持双向链接；同步可选，软件为闭源。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Optional sync",
+      "condition_zh": "本地笔记可离线；同步、发布及部分插件需要联网。",
+      "sources": [
+        "https://github.com/obsidianmd/obsidian-releases/blob/master/README.md",
+        "https://obsidian.md/"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Zettlr",
+      "category": "Notes and Knowledge",
+      "repository": "Zettlr/Zettlr",
+      "url": "https://www.zettlr.com/",
+      "description": "Markdown writing and research notes stored on your computer, with citation integration.",
+      "description_zh": "将写作和研究笔记保存在本机的 Markdown 编辑器，支持引文集成。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "使用本地文件；部分导出格式可能需要预装 Pandoc 或 LaTeX。",
+      "sources": [
+        "https://github.com/Zettlr/Zettlr/blob/develop/README.md",
+        "https://www.zettlr.com/"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "LibreOffice",
+      "category": "Documents and PDFs",
+      "repository": "LibreOffice/core",
+      "url": "https://www.libreoffice.org/",
+      "description": "Desktop word processing, spreadsheets and presentations that open and save local documents.",
+      "description_zh": "可在本机打开、编辑和保存文档、表格及演示文稿的桌面办公套件。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "本地办公和导出可离线；联机协作不在收录范围内。",
+      "sources": [
+        "https://github.com/LibreOffice/core/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "NAPS2",
+      "category": "Documents and PDFs",
+      "repository": "cyanfish/naps2",
+      "url": "https://www.naps2.com/",
+      "description": "Scan or import pages and create searchable PDFs; download OCR language packs before disconnecting.",
+      "description_zh": "扫描或导入页面并制作可搜索 PDF；OCR 语言包需提前下载。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Prepare assets",
+      "condition_zh": "先下载 OCR 语言包；设备驱动也需事先准备。",
+      "sources": [
+        "https://github.com/cyanfish/naps2/blob/master/README.md",
+        "https://www.naps2.com/doc/ocr"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "PDFsam Basic",
+      "category": "Documents and PDFs",
+      "repository": "torakiki/pdfsam",
+      "url": "https://pdfsam.org/pdfsam-basic/",
+      "description": "Split, merge, rotate and extract PDF pages locally using the Basic desktop edition.",
+      "description_zh": "使用 Basic 桌面版在本机拆分、合并、旋转和提取 PDF 页面。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "本条仅指 Basic 桌面版的本地 PDF 操作。",
+      "sources": [
+        "https://github.com/torakiki/pdfsam/blob/master/README.md",
+        "https://pdfsam.org/pdfsam-basic/"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "draw.io Desktop",
+      "category": "Images and Diagrams",
+      "repository": "jgraph/drawio-desktop",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "description": "Flowcharts and diagrams saved as local files in the standalone desktop application.",
+      "description_zh": "使用独立桌面版绘制流程图和示意图，并保存为本地文件。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "使用桌面版和本地文件；更新检查可能联网。",
+      "sources": [
+        "https://github.com/jgraph/drawio-desktop/blob/dev/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "GIMP",
+      "category": "Images and Diagrams",
+      "repository": "GNOME/gimp",
+      "url": "https://www.gimp.org/",
+      "description": "Edit and retouch local images with layers, selections and reusable editing tools.",
+      "description_zh": "使用图层、选区等工具在本地编辑与修饰图片。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "核心图像编辑基于本地文件；第三方插件另行评估。",
+      "sources": [
+        "https://github.com/GNOME/gimp/blob/master/README",
+        "https://www.gimp.org/"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Krita",
+      "category": "Images and Diagrams",
+      "repository": "KDE/krita",
+      "url": "https://krita.org/",
+      "description": "Digital painting and illustration with local project files and configurable brushes.",
+      "description_zh": "使用本地工程文件和可配置画笔进行数字绘画与插画创作。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "画笔和素材若未内置，需要提前准备。",
+      "sources": [
+        "https://github.com/KDE/krita/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Audacity",
+      "category": "Audio and Video",
+      "repository": "audacity/audacity",
+      "url": "https://www.audacityteam.org/",
+      "description": "Record, trim and mix audio locally; cloud sharing is outside this list's scope.",
+      "description_zh": "在本机录制、剪切和混合音频；本清单不涉及云端分享功能。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "本条指本地录制和编辑，不包括云服务。",
+      "sources": [
+        "https://github.com/audacity/audacity/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "HandBrake",
+      "category": "Audio and Video",
+      "repository": "HandBrake/HandBrake",
+      "url": "https://handbrake.fr/",
+      "description": "Convert local video files into supported output formats with desktop presets.",
+      "description_zh": "通过桌面预设将本地视频转换成支持的输出格式。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "处理已存储在本机的视频；不是在线视频下载工具。",
+      "sources": [
+        "https://github.com/HandBrake/HandBrake/blob/master/README.markdown"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Shotcut",
+      "category": "Audio and Video",
+      "repository": "mltframework/shotcut",
+      "url": "https://shotcut.org/",
+      "description": "Edit local video on a timeline with filters, transitions and export controls.",
+      "description_zh": "通过时间线、滤镜、转场和导出设置编辑本地视频。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "媒体和所用素材需已保存在本地。",
+      "sources": [
+        "https://github.com/mltframework/shotcut/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Jan",
+      "category": "Local AI and Transcription",
+      "repository": "janhq/jan",
+      "url": "https://jan.ai/",
+      "description": "Desktop chat with downloaded language models; select a local model instead of a cloud provider.",
+      "description_zh": "使用已下载的语言模型进行桌面对话；需选择本地模型而非云端服务。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Prepare assets",
+      "condition_zh": "提前下载适合硬件的模型，离线时不使用云端 API。",
+      "sources": [
+        "https://github.com/janhq/jan/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Ollama",
+      "category": "Local AI and Transcription",
+      "repository": "ollama/ollama",
+      "url": "https://ollama.com/",
+      "description": "Run downloaded language models on your machine; cloud models and web search require internet access.",
+      "description_zh": "在本机运行已下载的语言模型；云端模型和网页搜索需要联网。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Prepare assets",
+      "condition_zh": "先下载本地模型；官方 FAQ 提供关闭云功能的方法。",
+      "sources": [
+        "https://github.com/ollama/ollama/blob/main/README.md",
+        "https://docs.ollama.com/faq"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "whisper.cpp",
+      "category": "Local AI and Transcription",
+      "repository": "ggml-org/whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "description": "Transcribe local audio with on-device speech recognition after downloading model weights.",
+      "description_zh": "下载模型权重后，使用设备端语音识别转写本地音频。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Prepare assets",
+      "condition_zh": "需先准备模型、程序和音频格式转换工具。",
+      "sources": [
+        "https://github.com/ggml-org/whisper.cpp/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Espanso",
+      "category": "Search and Automation",
+      "repository": "espanso/espanso",
+      "url": "https://espanso.org/",
+      "description": "Expand typed shortcuts into reusable text snippets using local configuration files.",
+      "description_zh": "用本地配置把输入的快捷缩写展开为可复用文字片段。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "本地文本展开可离线；外部脚本或扩展包可能需要联网。",
+      "sources": [
+        "https://github.com/espanso/espanso/blob/dev/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Flow Launcher",
+      "category": "Search and Automation",
+      "repository": "Flow-Launcher/Flow.Launcher",
+      "url": "https://www.flowlauncher.com/",
+      "description": "Search Windows applications and local files from a keyboard launcher; web plugins need internet.",
+      "description_zh": "通过键盘启动器搜索 Windows 应用和本地文件；网络插件需要联网。",
+      "platforms": "Windows",
+      "condition": "Local files",
+      "condition_zh": "离线范围仅包括本地应用、文件和系统功能。",
+      "sources": [
+        "https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "PowerToys",
+      "category": "Search and Automation",
+      "repository": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Windows utilities for window layouts, bulk file renaming and other local desktop tasks.",
+      "description_zh": "提供窗口布局、批量文件重命名等本地桌面功能的 Windows 工具集。",
+      "platforms": "Windows",
+      "condition": "Local files",
+      "condition_zh": "仅收录本地工具功能；联网和 AI 扩展需单独检查。",
+      "sources": [
+        "https://github.com/microsoft/PowerToys/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "7-Zip",
+      "category": "Files and Backups",
+      "repository": "ip7z/7zip",
+      "url": "https://www.7-zip.org/",
+      "description": "Create and extract local archives with the Windows desktop application.",
+      "description_zh": "使用 Windows 桌面版创建和解压本地压缩文件。",
+      "platforms": "Windows",
+      "condition": "Local files",
+      "condition_zh": "此处平台指桌面图形界面，不泛指所有命令行移植版。",
+      "sources": [
+        "https://github.com/ip7z/7zip/blob/main/README.md",
+        "https://www.7-zip.org/"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "LocalSend",
+      "category": "Files and Backups",
+      "repository": "localsend/localsend",
+      "url": "https://localsend.org/",
+      "description": "Transfer files between nearby devices without internet; a reachable local network is required.",
+      "description_zh": "无需互联网即可向附近设备传输文件，但需要可互通的本地网络。",
+      "platforms": "Windows, macOS, Linux; mobile companions",
+      "condition": "LAN required",
+      "condition_zh": "两台设备需要本地网络连接；不是无任何网络也能传输。",
+      "sources": [
+        "https://github.com/localsend/localsend/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "restic",
+      "category": "Files and Backups",
+      "repository": "restic/restic",
+      "url": "https://restic.net/",
+      "description": "Create encrypted, versioned backups in a local directory or attached drive using the command line.",
+      "description_zh": "通过命令行，在本地目录或外接硬盘上创建加密且带版本的备份。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local storage",
+      "condition_zh": "离线方案使用本地或外接盘仓库；远程存储需要网络。",
+      "sources": [
+        "https://github.com/restic/restic/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "calibre",
+      "category": "Reading and References",
+      "repository": "kovidgoyal/calibre",
+      "url": "https://calibre-ebook.com/",
+      "description": "Organize, read and convert locally stored e-books; downloading books or metadata needs internet.",
+      "description_zh": "整理、阅读和转换已保存在本地的电子书；下载书籍或元数据需要联网。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Local files",
+      "condition_zh": "离线使用本地书库；联网抓取元数据不属于离线功能。",
+      "sources": [
+        "https://github.com/kovidgoyal/calibre/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "GoldenDict-ng",
+      "category": "Reading and References",
+      "repository": "xiaoyifang/goldendict-ng",
+      "url": "https://xiaoyifang.github.io/goldendict-ng/",
+      "description": "Look up words in local dictionaries; obtain compatible dictionary files before going offline.",
+      "description_zh": "使用本地词典文件查词；离线前需准备兼容且有权使用的词典数据。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Prepare assets",
+      "condition_zh": "需要自行提供兼容词典；在线词典功能不属于离线范围。",
+      "sources": [
+        "https://github.com/xiaoyifang/goldendict-ng/blob/staged/README.md",
+        "https://xiaoyifang.github.io/goldendict-ng/"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    },
+    {
+      "name": "Zotero",
+      "category": "Reading and References",
+      "repository": "zotero/zotero",
+      "url": "https://www.zotero.org/",
+      "description": "Organize references and annotate locally saved PDFs; online capture and synchronization need internet.",
+      "description_zh": "管理文献并批注本地 PDF；在线抓取和同步功能需要联网。",
+      "platforms": "Windows, macOS, Linux",
+      "condition": "Optional sync",
+      "condition_zh": "阅读、整理已保存的资料可离线；自动抓取元数据需要联网。",
+      "sources": [
+        "https://github.com/zotero/zotero/blob/main/README.md",
+        "https://www.zotero.org/support/quick_start_guide"
+      ],
+      "reviewed_on": "2026-10-25",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": false
+    }
+  ]
+}
