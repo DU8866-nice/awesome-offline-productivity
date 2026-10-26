@@ -48,6 +48,7 @@ These walkthroughs explain what to prepare and how to check the result. For indi
 ## Notes and Knowledge
 
 - [Joplin](https://joplinapp.org/) - Local notebooks and to-do lists with offline search and optional synchronization. `Windows, macOS, Linux`.
+- [Koru](https://github.com/koruworks/mono) - Notes, documents and files kept in a local database on the device and usable offline, with optional peer-to-peer sync between devices; the Linux build is a nightly preview. `Windows, Linux`.
 - [Obsidian](https://obsidian.md/) - Markdown notes stored in local folders, with backlinks and optional sync; proprietary software. `Windows, macOS, Linux`.
 - [Zettlr](https://www.zettlr.com/) - Markdown writing and research notes stored on your computer, with citation integration. `Windows, macOS, Linux`.
 
