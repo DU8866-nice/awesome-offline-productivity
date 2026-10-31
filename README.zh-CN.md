@@ -52,7 +52,7 @@
 ## 笔记与知识管理
 
 - [Joplin](https://joplinapp.org/) - 本地笔记本和待办清单，支持离线搜索，同步功能可选。 `Windows, macOS, Linux`。
-- [Koru](https://github.com/koruworks/mono) - 将笔记、文档和文件保存在本机的本地数据库中，可离线使用，设备间点对点同步可选；Linux 版本为 nightly 预览版。 `Windows, Linux`。
+- [Koru](https://github.com/koruworks/mono) - 将笔记、文档和文件保存在本机的本地数据库中，可离线使用，设备间点对点同步可选。 `Windows, macOS, Linux`。
 - [Obsidian](https://obsidian.md/) - 以本地 Markdown 文件保存笔记，支持双向链接；同步可选，软件为闭源。 `Windows, macOS, Linux`。
 - [Zettlr](https://www.zettlr.com/) - 将写作和研究笔记保存在本机的 Markdown 编辑器，支持引文集成。 `Windows, macOS, Linux`。
 

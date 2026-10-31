@@ -7,7 +7,7 @@ The application source repositories listed below were not archived at review tim
 | Resource | Offline condition | Primary evidence |
 | --- | --- | --- |
 | Joplin | Optional sync: 普通本地笔记不需要云同步。 | [Source 1](https://github.com/laurent22/joplin/blob/dev/README.md) |
-| Koru | Optional sync: 笔记保存在本机数据库中，读写可离线；设备间点对点同步、可选的 Koru Cloud 登录和更新需要联网。Linux 版本为 nightly 预览版。 | [Source 1](https://github.com/koruworks/mono/blob/main/README.md) |
+| Koru | Optional sync: 笔记保存在本机数据库中，读写可离线；设备间点对点同步、可选的 Koru Cloud 登录和更新需要联网。Windows、macOS 和 Linux 均有正式版（Linux 自 0.1.4 起）。 | [Source 1](https://github.com/koruworks/mono/blob/main/README.md) · [Source 2](https://github.com/koruworks/mono/blob/main/releases/0.1.4.toml) |
 | Obsidian | Optional sync: 本地笔记可离线；同步、发布及部分插件需要联网。 | [Source 1](https://github.com/obsidianmd/obsidian-releases/blob/master/README.md) · [Source 2](https://obsidian.md/) |
 | Zettlr | Local files: 使用本地文件；部分导出格式可能需要预装 Pandoc 或 LaTeX。 | [Source 1](https://github.com/Zettlr/Zettlr/blob/develop/README.md) · [Source 2](https://www.zettlr.com/) |
 | LibreOffice | Local files: 本地办公和导出可离线；联机协作不在收录范围内。 | [Source 1](https://github.com/LibreOffice/core/blob/master/README.md) |
