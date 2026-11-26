@@ -26,6 +26,7 @@ The application source repositories listed below were not archived at review tim
 | Espanso | Local files: 本地文本展开可离线；外部脚本或扩展包可能需要联网。 | [Source 1](https://github.com/espanso/espanso/blob/dev/README.md) |
 | Flow Launcher | Local files: 离线范围仅包括本地应用、文件和系统功能。 | [Source 1](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/README.md) |
 | PowerToys | Local files: 仅收录本地工具功能；联网和 AI 扩展需单独检查。 | [Source 1](https://github.com/microsoft/PowerToys/blob/main/README.md) |
+| TypeNod | Prepare assets: 2026-11-26 documentation review only. On macOS 26 or later, download the chosen Apple translation resources before disconnecting. Input, translation and verification of a purchased license work offline; purchase, application/language downloads and updates need internet. Standard macOS text-input fields are supported; nonstandard editors may not work. | [Requirements, offline use and license activation](https://typenod.com/install/) · [Product facts and maintenance](https://typenod.com/press/) |
 | 7-Zip | Local files: 此处平台指桌面图形界面，不泛指所有命令行移植版。 | [Source 1](https://github.com/ip7z/7zip/blob/main/README.md) · [Source 2](https://www.7-zip.org/) |
 | LocalSend | LAN required: 两台设备需要本地网络连接；不是无任何网络也能传输。 | [Source 1](https://github.com/localsend/localsend/blob/main/README.md) |
 | restic | Local storage: 离线方案使用本地或外接盘仓库；远程存储需要网络。 | [Source 1](https://github.com/restic/restic/blob/master/README.md) |
@@ -38,6 +39,12 @@ The application source repositories listed below were not archived at review tim
 The entry covers the free core workflow of creating, editing, organizing and searching local notes and keeping password records. Install the desktop app through the official Mac App Store or Microsoft Store before disconnecting. This review did not install or run the app, disconnect a network, test recovery or inspect network traffic. Official documentation, rather than a runtime test, supports the offline statement.
 
 LocArk is proprietary and no public application source repository was supplied, so its catalog repository and archived-status fields are `null`. The native workspace is not an interchangeable plain-text Markdown vault: new workspace content uses an app-managed encrypted format. Readable ZIP export is a separate portability operation, not a substitute for the complete native workspace backup. Paid kanban and mind-map creation are outside this entry's offline task; the free core is distinguished from optional annual or lifetime Pro.
+
+### TypeNod documentation review — 26 November 2026
+
+The specific task is previewing a translation as text is entered and inserting it into the active standard macOS text field. This adds a local input-method workflow rather than another note editor or text-expansion library. The official guide explicitly states that input, translation and license activation work offline once translation resources are downloaded. Obtain the paid license and signed, notarized DMG before disconnecting; the supplied license is verified locally. macOS manages language-resource downloads, and supported language pairs depend on the Mac. Basic translation requires macOS 26.0; optional sentence refinement needs 26.4 or later and is not necessary for this entry's task.
+
+TypeNod is proprietary, costs US$9.90 for a lifetime Mac license and has no free trial; the catalog's source-repository and archived-status fields are `null`. This is a documentation review on behalf of publisher SELFARK LTD with AI assistance, not a runtime or network-disconnection test. No installation, translation-quality assessment or traffic inspection was performed.
 
 ## Review limits
 - Platform names describe supported desktop families, not every OS version or CPU architecture. Check the official download page for your machine.

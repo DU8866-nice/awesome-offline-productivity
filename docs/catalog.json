@@ -364,6 +364,24 @@
       "repo_archived": false
     },
     {
+      "name": "TypeNod",
+      "category": "Search and Automation",
+      "repository": null,
+      "url": "https://typenod.com/",
+      "description": "Preview and insert on-device translations while typing after downloading language resources; paid proprietary software requiring macOS 26 or later.",
+      "description_zh": "下载语言资源后，在输入时预览并插入设备端翻译；付费闭源软件，要求 macOS 26 或更高版本。",
+      "platforms": "macOS",
+      "condition": "Prepare assets",
+      "condition_zh": "先购买 Mac 授权、下载并安装官方 DMG，再下载所选语言对的 Apple 翻译资源。资源准备后，输入、翻译和授权验证均可离线；购买、应用与资源下载及更新需要联网。适用于标准 macOS 文本输入，非标准编辑器可能不兼容。基本翻译需要 macOS 26.0，可选句子优化需要 26.4 或更高版本。",
+      "sources": [
+        "https://typenod.com/install/",
+        "https://typenod.com/press/"
+      ],
+      "reviewed_on": "2026-11-26",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": null
+    },
+    {
       "name": "7-Zip",
       "category": "Files and Backups",
       "repository": "ip7z/7zip",

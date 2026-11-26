@@ -17,7 +17,7 @@
   <a href="docs/source-review.md">资料核查记录</a>
 </p>
 
-这里整理了 **8 个分类、26 个应用**，以及扫描件转可搜索 PDF、本地音频转写和外接硬盘备份的使用流程。先找到要完成的任务，再查看工具支持的系统和使用前需要准备的内容。
+这里整理了 **8 个分类、27 个应用**，以及扫描件转可搜索 PDF、本地音频转写和外接硬盘备份的使用流程。先找到要完成的任务，再查看工具支持的系统和使用前需要准备的内容。
 
 本清单所说的“离线”，是指安装并完成必要下载后，条目描述的任务可不依赖互联网进行。模型、OCR 语言包和词典需要提前准备；LocalSend 仍需要本地网络。选择工具前可先阅读[离线条件说明](docs/offline-guide.md)。
 
@@ -96,6 +96,7 @@
 - [Espanso](https://espanso.org/) - 用本地配置把输入的快捷缩写展开为可复用文字片段。 `Windows, macOS, Linux`。
 - [Flow Launcher](https://www.flowlauncher.com/) - 通过键盘启动器搜索 Windows 应用和本地文件；网络插件需要联网。 `Windows`。
 - [PowerToys](https://github.com/microsoft/PowerToys) - 提供窗口布局、批量文件重命名等本地桌面功能的 Windows 工具集。 `Windows`。
+- [TypeNod](https://typenod.com/) - 下载语言资源后，在输入时预览并插入设备端翻译；付费闭源软件，要求 macOS 26 或更高版本。 `macOS`。
 
 <a id="files-and-backups"></a>
 

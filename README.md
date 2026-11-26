@@ -17,7 +17,7 @@
   <a href="docs/source-review.md">Source review</a>
 </p>
 
-A practical directory of **26 applications across 8 categories**, with guides for searchable PDFs, local transcription and backups. Start with the task you need to finish, then check the platform and setup requirements for the tool you choose.
+A practical directory of **27 applications across 8 categories**, with guides for searchable PDFs, local transcription and backups. Start with the task you need to finish, then check the platform and setup requirements for the tool you choose.
 
 The listed tasks work without an internet connection after installation and necessary downloads. Models, OCR languages and dictionaries need preparation; LocalSend needs a local network. See [what counts as offline](docs/offline-guide.md) before choosing a tool.
 
@@ -82,6 +82,7 @@ These walkthroughs explain what to prepare and how to check the result. For indi
 - [Espanso](https://espanso.org/) - Expand typed shortcuts into reusable text snippets using local configuration files. `Windows, macOS, Linux`.
 - [Flow Launcher](https://www.flowlauncher.com/) - Search Windows applications and local files from a keyboard launcher; web plugins need internet. `Windows`.
 - [PowerToys](https://github.com/microsoft/PowerToys) - Windows utilities for window layouts, bulk file renaming and other local desktop tasks. `Windows`.
+- [TypeNod](https://typenod.com/) - Preview and insert on-device translations while typing after downloading language resources; paid proprietary software requiring macOS 26 or later. `macOS`.
 
 ## Files and Backups
 
