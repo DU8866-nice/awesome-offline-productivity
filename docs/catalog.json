@@ -47,6 +47,28 @@
       "repo_archived": false
     },
     {
+      "name": "LocArk",
+      "category": "Notes and Knowledge",
+      "repository": null,
+      "url": "https://locark.com/",
+      "description": "Markdown notes and password records in a local workspace, with offline core features and optional third-party folder sync; proprietary software.",
+      "description_zh": "在本地工作区中管理 Markdown 笔记和密码记录，核心功能可离线，第三方文件夹同步可选；软件为闭源。",
+      "platforms": "Windows, macOS",
+      "condition": "Local files",
+      "condition_zh": "先从官方商店安装；本地笔记与密码记录的核心操作可离线。新工作区使用应用管理的加密格式，旧明文工作区仍受支持，并非直接编辑的明文 Markdown 文件库。Pro 验证、购买、笔记中的远程图片及可选第三方文件夹同步可能需要联网。",
+      "sources": [
+        "https://locark.com/encrypted-notes/",
+        "https://locark.com/press/",
+        "https://locark.com/privacy/",
+        "https://locark.com/locark-workspace-setup-guide/",
+        "https://locark.com/pricing/",
+        "https://locark.com/changelog/"
+      ],
+      "reviewed_on": "2026-11-26",
+      "review_level": "Documentation reviewed; not runtime-tested in this session",
+      "repo_archived": null
+    },
+    {
       "name": "Obsidian",
       "category": "Notes and Knowledge",
       "repository": "obsidianmd/obsidian-releases",
