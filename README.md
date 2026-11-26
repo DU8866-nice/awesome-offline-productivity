@@ -17,7 +17,7 @@
   <a href="docs/source-review.md">Source review</a>
 </p>
 
-A practical directory of **24 applications across 8 categories**, with guides for searchable PDFs, local transcription and backups. Start with the task you need to finish, then check the platform and setup requirements for the tool you choose.
+A practical directory of **26 applications across 8 categories**, with guides for searchable PDFs, local transcription and backups. Start with the task you need to finish, then check the platform and setup requirements for the tool you choose.
 
 The listed tasks work without an internet connection after installation and necessary downloads. Models, OCR languages and dictionaries need preparation; LocalSend needs a local network. See [what counts as offline](docs/offline-guide.md) before choosing a tool.
 
@@ -49,6 +49,7 @@ These walkthroughs explain what to prepare and how to check the result. For indi
 
 - [Joplin](https://joplinapp.org/) - Local notebooks and to-do lists with offline search and optional synchronization. `Windows, macOS, Linux`.
 - [Koru](https://github.com/koruworks/mono) - Notes, documents and files kept in a local database on the device and usable offline, with optional peer-to-peer sync between devices. `Windows, macOS, Linux`.
+- [LocArk](https://locark.com/) - Markdown notes and password records in a local workspace, with offline core features and optional third-party folder sync; proprietary software. `Windows, macOS`.
 - [Obsidian](https://obsidian.md/) - Markdown notes stored in local folders, with backlinks and optional sync; proprietary software. `Windows, macOS, Linux`.
 - [Zettlr](https://www.zettlr.com/) - Markdown writing and research notes stored on your computer, with citation integration. `Windows, macOS, Linux`.
 

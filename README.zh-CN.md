@@ -17,7 +17,7 @@
   <a href="docs/source-review.md">资料核查记录</a>
 </p>
 
-这里整理了 **8 个分类、24 个应用**，以及扫描件转可搜索 PDF、本地音频转写和外接硬盘备份的使用流程。先找到要完成的任务，再查看工具支持的系统和使用前需要准备的内容。
+这里整理了 **8 个分类、26 个应用**，以及扫描件转可搜索 PDF、本地音频转写和外接硬盘备份的使用流程。先找到要完成的任务，再查看工具支持的系统和使用前需要准备的内容。
 
 本清单所说的“离线”，是指安装并完成必要下载后，条目描述的任务可不依赖互联网进行。模型、OCR 语言包和词典需要提前准备；LocalSend 仍需要本地网络。选择工具前可先阅读[离线条件说明](docs/offline-guide.md)。
 
@@ -53,6 +53,7 @@
 
 - [Joplin](https://joplinapp.org/) - 本地笔记本和待办清单，支持离线搜索，同步功能可选。 `Windows, macOS, Linux`。
 - [Koru](https://github.com/koruworks/mono) - 将笔记、文档和文件保存在本机的本地数据库中，可离线使用，设备间点对点同步可选。 `Windows, macOS, Linux`。
+- [LocArk](https://locark.com/) - 在本地工作区中管理 Markdown 笔记和密码记录，核心功能可离线，第三方文件夹同步可选；软件为闭源。 `Windows, macOS`。
 - [Obsidian](https://obsidian.md/) - 以本地 Markdown 文件保存笔记，支持双向链接；同步可选，软件为闭源。 `Windows, macOS, Linux`。
 - [Zettlr](https://www.zettlr.com/) - 将写作和研究笔记保存在本机的 Markdown 编辑器，支持引文集成。 `Windows, macOS, Linux`。
 

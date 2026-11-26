@@ -8,6 +8,7 @@ The application source repositories listed below were not archived at review tim
 | --- | --- | --- |
 | Joplin | Optional sync: 普通本地笔记不需要云同步。 | [Source 1](https://github.com/laurent22/joplin/blob/dev/README.md) |
 | Koru | Optional sync: 笔记保存在本机数据库中，读写可离线；设备间点对点同步、可选的 Koru Cloud 登录和更新需要联网。Windows、macOS 和 Linux 均有正式版（Linux 自 0.1.4 起）。 | [Source 1](https://github.com/koruworks/mono/blob/main/README.md) · [Source 2](https://github.com/koruworks/mono/blob/main/releases/0.1.4.toml) |
+| LocArk | Local files: 2026-11-26 documentation review only. Core local notes and password records work offline after official store installation. Workspace data is app-managed; new workspaces use encryption and legacy plaintext workspaces remain supported. Pro verification, purchases, remote note images and optional third-party folder sync may need internet. | [Offline notes](https://locark.com/encrypted-notes/) · [Product facts](https://locark.com/press/) · [Network boundaries](https://locark.com/privacy/) · [Storage and export](https://locark.com/locark-workspace-setup-guide/) · [Free/Pro scope](https://locark.com/pricing/) · [Current maintenance](https://locark.com/changelog/) |
 | Obsidian | Optional sync: 本地笔记可离线；同步、发布及部分插件需要联网。 | [Source 1](https://github.com/obsidianmd/obsidian-releases/blob/master/README.md) · [Source 2](https://obsidian.md/) |
 | Zettlr | Local files: 使用本地文件；部分导出格式可能需要预装 Pandoc 或 LaTeX。 | [Source 1](https://github.com/Zettlr/Zettlr/blob/develop/README.md) · [Source 2](https://www.zettlr.com/) |
 | LibreOffice | Local files: 本地办公和导出可离线；联机协作不在收录范围内。 | [Source 1](https://github.com/LibreOffice/core/blob/master/README.md) |
@@ -31,6 +32,12 @@ The application source repositories listed below were not archived at review tim
 | calibre | Local files: 离线使用本地书库；联网抓取元数据不属于离线功能。 | [Source 1](https://github.com/kovidgoyal/calibre/blob/master/README.md) |
 | GoldenDict-ng | Prepare assets: 需要自行提供兼容词典；在线词典功能不属于离线范围。 | [Source 1](https://github.com/xiaoyifang/goldendict-ng/blob/staged/README.md) · [Source 2](https://xiaoyifang.github.io/goldendict-ng/) |
 | Zotero | Optional sync: 阅读、整理已保存的资料可离线；自动抓取元数据需要联网。 | [Source 1](https://github.com/zotero/zotero/blob/main/README.md) · [Source 2](https://www.zotero.org/support/quick_start_guide) |
+
+### LocArk documentation review — 26 November 2026
+
+The entry covers the free core workflow of creating, editing, organizing and searching local notes and keeping password records. Install the desktop app through the official Mac App Store or Microsoft Store before disconnecting. This review did not install or run the app, disconnect a network, test recovery or inspect network traffic. Official documentation, rather than a runtime test, supports the offline statement.
+
+LocArk is proprietary and no public application source repository was supplied, so its catalog repository and archived-status fields are `null`. The native workspace is not an interchangeable plain-text Markdown vault: new workspace content uses an app-managed encrypted format. Readable ZIP export is a separate portability operation, not a substitute for the complete native workspace backup. Paid kanban and mind-map creation are outside this entry's offline task; the free core is distinguished from optional annual or lifetime Pro.
 
 ## Review limits
 - Platform names describe supported desktop families, not every OS version or CPU architecture. Check the official download page for your machine.
